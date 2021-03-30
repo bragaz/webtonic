@@ -3,7 +3,7 @@
 //! This crate only contains the [`Client`](Client), which requires a browser runtime
 //! to function.
 
-mod websocket;
+pub mod websocket;
 
 use bytes::BytesMut;
 use core::{
