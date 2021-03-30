@@ -53,7 +53,7 @@ pub(crate) fn console_log(s: &str) {
 /// assert_eq!(response.message, "Hello WebTonic!");
 /// ```
 #[derive(Debug, Clone)]
-pub struct Client<'a> {
+pub (crate) struct Client<'a> {
     ws: WebSocketConnector,
     _a: PhantomData<&'a ()>,
 }
