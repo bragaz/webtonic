@@ -10,7 +10,6 @@ use wasm_bindgen::JsCast;
 use wasm_bindgen_futures::JsFuture;
 use web_sys::{ErrorEvent, MessageEvent, WebSocket};
 use webtonic_proto::WebTonicError;
-
 use crate::console_log;
 
 #[derive(Debug, Clone)]

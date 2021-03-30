@@ -3,7 +3,7 @@ tonic::include_proto!("grpc.examples.echo");
 
 wasm_bindgen_test_configure!(run_in_browser);
 use wasm_bindgen_test::*;
-use webtonic_client::Client;
+use webtonic_client::client::Client;
 
 #[wasm_bindgen_test]
 async fn hello_world() {
